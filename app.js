@@ -60,7 +60,8 @@ function handleModeClick() {
 }
 
 function handleCanvasClick() {
-  ctx.flllRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+  console.log("handleClick");
+  ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
 }
 
 if (canvas) {
